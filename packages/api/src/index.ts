@@ -1,12 +1,16 @@
-import express from 'express';
+// import express from 'express';
 
-const port = 3000;
-const app = express();
+// const port = 3000;
+// const app = express();
 
-app.get('/', (req, res) => {
-  res.send('Hello Lerna!');
-});
+// app.get('/', (req, res) => {
+//   res.send('Hello Lerna!');
+// });
 
-app.listen(port, () => {
-  console.log(`Application is running on port ${port}`);
-});
+console.log('Hello')
+console.log(process.env.A);
+console.log(process.env.B);
+
+// app.listen(port, () => {
+//   console.log(`Application is running on port ${port}`);
+// });
