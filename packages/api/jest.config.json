@@ -1,0 +1,29 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "roots": [
+    "./src"
+  ],
+  "testMatch": [
+    "**/?(*.)+(spec|test).+(ts|tsx|js)"
+  ],
+  "transform": {
+    "^.+\\.(ts|tsx)$": "ts-jest"
+  },
+  "coveragePathIgnorePatterns": [
+    "**/node_modules/**",
+    "**/index.ts"
+  ],
+  "collectCoverageFrom": [
+    "!**/node_modules/**",
+    "./src/**/*.{js,jsx}"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "branches": 0,
+      "functions": 0,
+      "lines": 0,
+      "statements": 0
+    }
+  }
+}
