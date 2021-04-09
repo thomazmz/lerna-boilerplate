@@ -19,7 +19,7 @@ In order to run this service locally:
 In order to test this application you should want to run the following script call:
 
 ```(bash)
-   npm test
+  npm test
 ```
 
 ## Techonologies
