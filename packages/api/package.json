@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "@lerna-boilerplate/api",
   "version": "1.0.0",
   "description": "An minium API example builded with TypeScript",
   "author": "Thomaz Zandonotto <thomaz.zandonotto@gmail.com",
