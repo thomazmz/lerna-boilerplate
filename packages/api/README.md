@@ -1,4 +1,4 @@
-# Lerna API Boilerplate
+# API Boilerplate
 
 This is a sample backend project to exemplify Lerna usage. 
 
@@ -6,7 +6,7 @@ This is a sample backend project to exemplify Lerna usage.
 
 In order to run this service locally: 
 
-1. Define a `.env` file that follows the example file `env.example` file.
+1. Define a `.env` file following `env.example` pattern.
 2. Run the following commands:
 
 ```(bash)
@@ -16,11 +16,21 @@ In order to run this service locally:
 
 ## Testing
 
-In order to test this application you should want to run the following script call:
+In order to test this application you should run the following command:
 
 ```(bash)
   npm test
 ```
+
+## Building
+
+In order to build this application you should run the following command:
+
+```(bash)
+  npm run build
+```
+
+The result of your build will be placed on `./dist` folder.
 
 ## Techonologies
 - TypeScript
