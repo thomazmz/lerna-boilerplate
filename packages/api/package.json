@@ -8,8 +8,9 @@
     "start": "npm run build:live",
     "build": "tsc -p .",
     "build:live": "nodemon --watch 'src/**' --exec \"ts-node -r dotenv/config\" src/index.ts",
-    "test": "npx jest",
-    "lint": "eslint \"src/**\""
+    "format": "prettier --write \"src/**\"",
+    "lint": "eslint \"src/**\"",
+    "test": "npx jest"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
