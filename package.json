@@ -1,7 +1,14 @@
 {
   "name": "lerna-boilerplate",
   "private": true,
+  "scripts": {
+    "start": "lerna run start",
+    "lint": "lerna run lint",
+    "format": "lerna run format",
+    "prepare": "husky install"
+  },
   "devDependencies": {
+    "husky": "^6.0.0",
     "lerna": "^4.0.0"
   }
 }
